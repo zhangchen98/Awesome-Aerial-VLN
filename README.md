@@ -51,6 +51,14 @@ This repository collects academic efforts in this interdisciplinary field, from 
 <details>
 <summary>2025</summary>
 
+- **See, Point, Fly: A Learning-Free VLM Framework for Universal Unmanned Aerial Navigation**  
+  *Chih Yao Hu, Yang-Sen Lin, Yuna Lee, Chih-Hai Su, Jie-Ying Lee, Shr-Ruei Tsai, Chin-Yang Lin, Kuan-Wen Chen, Tsung-Wei Ke, Yu-Lun Liu*  
+  *CoRL, 2025.* [[Arxiv-20250926](https://arxiv.org/abs/2509.22653)] [[GitHub](https://github.com/Hu-chih-yao/see-point-fly)] [[Website](https://spf-web.pages.dev/)] 
+
+- **AeroDuo: Aerial Duo for UAV-based Vision and Language Navigation**  
+  *Ruipu Wu, Yige Zhang, Jinyu Chen, Linjiang Huang, Shifeng Zhang, Xu Zhou, Liang Wang, Si Liu*  
+  *ACM MM, 2025.* [[Arxiv-20250821](https://arxiv.org/abs/2508.15232)] [[GitHub](https://github.com/Rey-nard/AeroDuo_project?tab=readme-ov-file)]
+
 - **SA-GCS: Semantic-Aware Gaussian Curriculum Scheduling for UAV Vision-Language Navigation**  
   *Hengxing Cai, Jinhan Dong, Yijie Rao, Jingcheng Deng, Jingjun Tan, Qien Chen, Haidong Wang, Zhen Wang, Shiyu Huang, Agachai Sumalee, Renxin Zhong*  
   [[Arxiv-20250801](https://arxiv.org/abs/2508.00390)]
@@ -85,7 +93,7 @@ This repository collects academic efforts in this interdisciplinary field, from 
 
 - **UAV-VLN: End-to-End Vision Language guided Navigation for UAVs**  
   *Pranav Saxena, Nishant Raghuvanshi, Neena Goveas*  
-  [[Arxiv-20250430](https://arxiv.org/abs/2504.21432)]
+  *ECMR, 2025.* [[Arxiv-20250430](https://arxiv.org/abs/2504.21432)]
 
 - **GeoNav: Empowering MLLMs with Explicit Geospatial Reasoning Abilities for Language-Goal Aerial Navigation**  
   *Haotian Xu, Yue Hu, Chen Gao, Zhengqiu Zhu, Yong Zhao, Yong Li, Quanjun Yin*  
@@ -135,9 +143,9 @@ This repository collects academic efforts in this interdisciplinary field, from 
 
 ## 🔗 Related Topics
 
-- [Awesome-vln](https://github.com/daqingliu/awesome-vln)
-- [Awesome-embodied-vla-va-vln](https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln)
-- [Awesome-embodied-vision](https://github.com/ChanganVR/awesome-embodied-vision) 
+- [awesome-vln](https://github.com/daqingliu/awesome-vln)
+- [awesome-embodied-vla-va-vln](https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln)
+- [awesome-embodied-vision](https://github.com/ChanganVR/awesome-embodied-vision) 
 
 ---
 
