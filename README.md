@@ -1,25 +1,15 @@
 
-# Awesome UAV-VLN [🌐📍✈️]
+# Awesome Aerial-VLN [🌐📍✈️]
 
-> A curated list of **UAV-based Vision-and-Language Navigation (VLN)** papers, datasets, platforms, and related resources.  
-> UAV-VLN aims to enable autonomous drones to **navigate in real-world environments** via **natural language instructions**.  
-> Last updated: 2025/08/05
+> A curated list of **Aerial Vision-and-Language Navigation (VLN)** papers, datasets, platforms, and related resources.  
+> Aerial VLN aims to enable autonomous drones to **navigate in real-world environments** via **natural language instructions**.  
+> Last updated: 2025/10/24
 ---
 
-## 📌 Table of Contents
 
-- [Introduction](#introduction)
-- [Simulators & Platforms 🕹️](#simulators--platforms-️)
-- [Datasets 📁](#datasets-)
-- [Papers by Year 📅](#papers-by-year-)
-- [Related Topics](#related-topics)
-- [License](#license)
+## Introduction
 
----
-
-## 🧭 Introduction
-
-**UAV-VLN** is a new frontier in Embodied AI that combines:
+**Aerial-VLN** is a new frontier in Embodied AI that combines:
 - UAV-based perception
 - Natural language understanding
 - Vision-language grounding and planning.
@@ -29,51 +19,49 @@ This repository collects academic efforts in this interdisciplinary field, from 
 ---
 
 
-## 🕹️ Simulators & Platforms (to be updated)
+## 🕹️ Simulators & Platforms
 
-| Name | Description | Link |
-|------|-------------|------|
+| Name | Source| Engine | Description | Date Type | Size | Link |
+|------|-------|--------|-------------|-----------|------|------|
+|**|**|**|**|**|**|**|
+|OpenUAV|Synthetic|UE4, AirSim|22 distinct scenarios, including urban, rural, and natural landscapes|RGB, Depth, LiDAR,IMU, GPS|83.7GB|[Hugging Face](https://huggingface.co/datasets/wangxiangyu0814/TravelUAV_env)|
+|CityFlight|Real|Potree|covering 4.65km2 across two real cities: Cambridge and Birmingham|RGB, Depth|Unavailable|Unavailable|
+|AerialVLN-Simulators|Synthetic|UE4 with AirSim|25 city-level environments| RGB, Depth |35GB|[Kaggle](https://www.kaggle.com/datasets/shuboliu/aerialvln-simulators)|
+
 
 
 ---
 
-## 📁 Datasets (to be updated)
+## 📁 Datasets
 
-| Name | Year | Modality | Environment | Link |
-|------|------|----------|-------------|------|
+| Name | Year | Environment | Trajectories | Traj. Len.| Action Num | Instructions | Intr. Len. | Vocab | DoF | Link |
+|------|------|-----------|--------|-----------|------------|--------------|------------|-------|--------------|------|
+|**|**|**|**|**|**|**|**|**|**|**|
+|UAV-Need-Help|2024|OpenUAV|12,149|255m|264|12,149|104|10.8k|6|[Hugging Face](https://huggingface.co/datasets/wangxiangyu0814/TravelUAV)|
+|CityNav|2024|CityFlight|32,637|~200m|240|32,637|26|6.4k|4|[Dropbox](https://www.dropbox.com/scl/fi/ekbogjn2ptxdde2gik6nx/data.tar.gz?rlkey=oq5smcqlbgc6do5mcowetj3mp&e=1&st=gx563bhw&dl=0)| 
+|AerialVLN|2023|AerialVLN-Simulators|8,446|661.8m|204|25,338|83|4.5k|4|[Kaggle](https://www.kaggle.com/datasets/shuboliu/aerialvln)|
+|AerialVLN-S|2023|AerialVLN-Simulators|3,916|321.3m|115|11,748|82|2.8k|4|[Kaggle](https://www.kaggle.com/datasets/shuboliu/aerialvln-s)|
 
 
 ---
 
 
 ## 📅 Papers by Year
-
+To clearly present the research timeline, each publication is sorted by the earliest relevant date—journal submission, conference deadline, or first arXiv submission (if available).
 <details>
 <summary>2025</summary>
 
-- **See, Point, Fly: A Learning-Free VLM Framework for Universal Unmanned Aerial Navigation**  
-  *Chih Yao Hu, Yang-Sen Lin, Yuna Lee, Chih-Hai Su, Jie-Ying Lee, Shr-Ruei Tsai, Chin-Yang Lin, Kuan-Wen Chen, Tsung-Wei Ke, Yu-Lun Liu*  
-  *CoRL, 2025.* [[Arxiv-20250926](https://arxiv.org/abs/2509.22653)] [[GitHub](https://github.com/Hu-chih-yao/see-point-fly)] [[Website](https://spf-web.pages.dev/)] 
-
-- **AeroDuo: Aerial Duo for UAV-based Vision and Language Navigation**  
-  *Ruipu Wu, Yige Zhang, Jinyu Chen, Linjiang Huang, Shifeng Zhang, Xu Zhou, Liang Wang, Si Liu*  
-  *ACM MM, 2025.* [[Arxiv-20250821](https://arxiv.org/abs/2508.15232)] [[GitHub](https://github.com/Rey-nard/AeroDuo_project?tab=readme-ov-file)]
-
 - **SA-GCS: Semantic-Aware Gaussian Curriculum Scheduling for UAV Vision-Language Navigation**  
   *Hengxing Cai, Jinhan Dong, Yijie Rao, Jingcheng Deng, Jingjun Tan, Qien Chen, Haidong Wang, Zhen Wang, Shiyu Huang, Agachai Sumalee, Renxin Zhong*  
-  [[Arxiv-20250801](https://arxiv.org/abs/2508.00390)]
+  [[Arxiv-20250801](https://arxiv.org/abs/2508.00390)] [[GitHub](https://github.com/Kyaren/UAV_ON)]
+
+- **UAV-ON: A Benchmark for Open-World Object Goal Navigation with Aerial Agents**  
+  *Jianqiang Xiao, Yuexuan Sun, Yixin Shao, Boxi Gan, Rongqiang Liu, Yanjing Wu, Weili Guan, Xiang Deng*  
+  [[Arxiv-20250801](https://arxiv.org/pdf/2508.00288)]
 
 - **Grounded Vision-Language Navigation for UAVs with Open-Vocabulary Goal Understanding**  
   *Yuhang Zhang, Haosheng Yu, Jiaping Xiao, Mir Feroskhan*  
   [[Arxiv-20250612](https://arxiv.org/abs/2506.10756)]
-
-- **UAV-Flow Colosseo: A Real-World Benchmark for Flying-on-a-Word UAV Imitation Learning**  
-  *Xiangyu Wang, Donglin Yang, Yue Liao, Wenhao Zheng, wenjun wu, Bin Dai, Hongsheng Li, Si Liu*  
-  [[Arxiv-20250521](https://arxiv.org/abs/2505.15725)] [[GitHub](https://github.com/buaa-colalab/UAV-Flow)] [[Website](https://prince687028.github.io/UAV-Flow/)] 
-
-- **SkyVLN: Vision-and-Language Navigation and NMPC Control for UAVs in Urban Environments**  
-  *Tianshun Li, Tianyi Huai, Zhen Li, Yichun Gao, Haoang Li, Xinhu Zheng*  
-  *IROS, 2025.* [[Arxiv-20250709](https://arxiv.org/abs/2505.23267)]
 
 - **VLM-RRT: Vision Language Model Guided RRT Search for Autonomous UAV Navigation**  
   *Jianlin Ye, Savvas Papaioannou, Panayiotis Kolios*  
@@ -83,29 +71,45 @@ This repository collects academic efforts in this interdisciplinary field, from 
   *Hengxing Cai, Jinhan Dong, Jingjun Tan, Jingcheng Deng, Sihang Li, Zhifeng Gao, Haidong Wang, Zicheng Su, Agachai Sumalee, Renxin Zhong*  
   [[Arxiv-20250519](https://arxiv.org/abs/2505.12835)] [[GitHub](https://github.com/Pendulumclock/FlightGPT)]
 
-- **CityNavAgent: Aerial Vision-and-Language Navigation with Hierarchical Semantic Planning and Global Memory**  
-  *Weichen Zhang, Chen Gao, Shiquan Yu, Ruiying Peng, Baining Zhao, Qian Zhang, Jinqiang Cui, Xinlei Chen, Yong Li*  
-  [[Arxiv-20250508](https://arxiv.org/abs/2505.05622)] [[GitHub](https://github.com/VinceOuti/CityNavAgent)]
-
 - **LogisticsVLN: Vision-Language Navigation For Low-Altitude Terminal Delivery Based on Agentic UAVs**  
   *Xinyuan Zhang, Yonglin Tian, Fei Lin, Yue Liu, Jing Ma, Kornélia Sára Szatmáry, Fei-Yue Wang*  
   [[Arxiv-20250506](https://arxiv.org/abs/2505.03460)]
 
 - **UAV-VLN: End-to-End Vision Language guided Navigation for UAVs**  
   *Pranav Saxena, Nishant Raghuvanshi, Neena Goveas*  
-  *ECMR, 2025.* [[Arxiv-20250430](https://arxiv.org/abs/2504.21432)]
+  *ECMR, 2025. Submission 20250504* [[Arxiv-20250430](https://arxiv.org/abs/2504.21432)]
+
+- **See, Point, Fly: A Learning-Free VLM Framework for Universal Unmanned Aerial Navigation**  
+  *Chih Yao Hu, Yang-Sen Lin, Yuna Lee, Chih-Hai Su, Jie-Ying Lee, Shr-Ruei Tsai, Chin-Yang Lin, Kuan-Wen Chen, Tsung-Wei Ke, Yu-Lun Liu*  
+  *CoRL, 2025. Submission 20250430* [[Arxiv-20250926](https://arxiv.org/abs/2509.22653)] [[GitHub](https://github.com/Hu-chih-yao/see-point-fly)] [[Website](https://spf-web.pages.dev/)] 
 
 - **GeoNav: Empowering MLLMs with Explicit Geospatial Reasoning Abilities for Language-Goal Aerial Navigation**  
   *Haotian Xu, Yue Hu, Chen Gao, Zhengqiu Zhu, Yong Zhao, Yong Li, Quanjun Yin*  
   [[Arxiv-20250413](https://arxiv.org/abs/2504.09587)]
 
+- **AeroDuo: Aerial Duo for UAV-based Vision and Language Navigation**  
+  *Ruipu Wu, Yige Zhang, Jinyu Chen, Linjiang Huang, Shifeng Zhang, Xu Zhou, Liang Wang, Si Liu*  
+  *ACM MM, 2025. Submission 20250411* [[Arxiv-20250821](https://arxiv.org/abs/2508.15232)] [[GitHub](https://github.com/Rey-nard/AeroDuo_project?tab=readme-ov-file)]
+
+- **UAV-Flow Colosseo: A Real-World Benchmark for Flying-on-a-Word UAV Imitation Learning**  
+  *Xiangyu Wang, Donglin Yang, Yue Liao, Wenhao Zheng, wenjun wu, Bin Dai, Hongsheng Li, Si Liu*  
+  *NeurIPS, 2025. Submission 20250315* [[Arxiv-20250521](https://arxiv.org/abs/2505.15725)] [[GitHub](https://github.com/buaa-colalab/UAV-Flow)] [[Website](https://prince687028.github.io/UAV-Flow/)] 
+
 - **Aerial Vision-and-Language Navigation with Grid-based View Selection and Map Construction**  
   *Ganlong Zhao, Guanbin Li, Jia Pan, Yizhou Yu*  
   [[Arxiv-20250314](https://arxiv.org/abs/2503.11091)]
 
+- **SkyVLN: Vision-and-Language Navigation and NMPC Control for UAVs in Urban Environments**  
+  *Tianshun Li, Tianyi Huai, Zhen Li, Yichun Gao, Haoang Li, Xinhu Zheng*  
+  *IROS, 2025. Submission 20250302* [[Arxiv-20250709](https://arxiv.org/abs/2505.23267)]
+
 - **OpenFly: A Comprehensive Platform for Aerial Vision-Language Navigation**  
   *Yunpeng Gao, Chenhui Li, Zhongrui You, Junli Liu, Zhen Li, Pengan Chen, Qizhi Chen, Zhonghan Tang, Liansheng Wang, Penghui Yang, Yiwen Tang, Yuhang Tang, Shuai Liang, Songyi Zhu, Ziqin Xiong, Yifei Su, Xinyi Ye, Jianan Li, Yan Ding, Dong Wang, Zhigang Wang, Bin Zhao, Xuelong Li*  
   [[Arxiv-20250225](https://arxiv.org/abs/2502.18041)] [[GitHub](https://github.com/SHAILAB-IPEC/OpenFly-Platform)] [[Website](https://shailab-ipec.github.io/openfly/)] 
+
+- **CityNavAgent: Aerial Vision-and-Language Navigation with Hierarchical Semantic Planning and Global Memory**  
+  *Weichen Zhang, Chen Gao, Shiquan Yu, Ruiying Peng, Baining Zhao, Qian Zhang, Jinqiang Cui, Xinlei Chen, Yong Li*  
+  *ACL, 2025. Submission 20250215* [[Arxiv-20250508](https://arxiv.org/abs/2505.05622)] [[GitHub](https://github.com/VinceOuti/CityNavAgent)]
 
 </details>
 
@@ -116,17 +120,17 @@ This repository collects academic efforts in this interdisciplinary field, from 
   *Youzhi Liu, Fanglong Yao, Yuanchang Yue, Guangluan Xu, Xian Sun, Kun Fu*  
   [[Arxiv-20241113](https://arxiv.org/abs/2411.08579)]
 
-- **Aerial Vision-and-Language Navigation via Semantic-Topo-Metric Representation Guided LLM Reasoning**  
+- **Exploring Spatial Representation to Enhance LLM Reasoning in Aerial Vision-Language Navigation**  
   *Yunpeng Gao, Zhigang Wang, Linglin Jing, Dong Wang, Xuelong Li, Bin Zhao*  
   [[Arxiv-20241011](https://arxiv.org/abs/2410.08500)]
 
 - **【TravelUAV】Towards Realistic UAV Vision-Language Navigation: Platform, Benchmark, and Methodology**  
   *Xiangyu Wang, Donglin Yang, Ziqin Wang, Hohin Kwan, Jinyu Chen, Wenjun Wu, Hongsheng Li, Yue Liao, Si Liu*  
-  *ICLR, 2025.* [[Arxiv-20241009](https://arxiv.org/abs/2410.07087)] [[GitHub](https://github.com/prince687028/TravelUAV)] [[Website](https://prince687028.github.io/OpenUAV/)] 
+  *ICLR, 2025. Submission 20241001.* [[Arxiv-20241009](https://arxiv.org/abs/2410.07087)] [[GitHub](https://github.com/prince687028/TravelUAV)] [[Website](https://prince687028.github.io/OpenUAV/)] 
   
 - **CityNav: A Large-Scale Dataset for Real-World Aerial Navigation**  
   *Jungdae Lee, Taiki Miyanishi, Shuhei Kurita, Koya Sakamoto, Daichi Azuma, Yutaka Matsuo, Nakamasa Inoue*  
-   [[Arxiv-20240620](https://arxiv.org/abs/2406.14240)] [[GitHub](https://github.com/water-cookie/citynav)] [[Website](https://water-cookie.github.io/city-nav-proj/)] 
+   *ICCV, 2025 Submission 20250307* [[Arxiv-20240620](https://arxiv.org/abs/2406.14240)] [[GitHub](https://github.com/water-cookie/citynav)] [[Website](https://water-cookie.github.io/city-nav-proj/)] 
 </details>
 
 <details>
@@ -134,7 +138,7 @@ This repository collects academic efforts in this interdisciplinary field, from 
 
 - **AerialVLN: Vision-and-language navigation for UAVs**  
   *Shubo Liu, Hongsheng Zhang, Yuankai Qi, Peng Wang, Yanning Zhang, Qi Wu*  
-  *ICCV, 2023.*  [[Arxiv-20230813](https://arxiv.org/abs/2308.06735)] [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_AerialVLN_Vision-and-Language_Navigation_for_UAVs_ICCV_2023_paper.pdf)] [[GitHub](https://github.com/AirVLN/AirVLN)]
+  *ICCV, 2023. Submission 20230308* [[Arxiv-20230813](https://arxiv.org/abs/2308.06735)] [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Liu_AerialVLN_Vision-and-Language_Navigation_for_UAVs_ICCV_2023_paper.pdf)] [[GitHub](https://github.com/AirVLN/AirVLN)]
 
 </details>
 
