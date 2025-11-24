@@ -3,12 +3,12 @@
 
 ## Introduction
 
-**Aerial Vision-and-Language Navigation (VLN)** aims to enable autonomous drones to **navigate in real-world environments** via **natural language instructions**. It is a new frontier in Embodied AI that combines:
+**Aerial Vision-and-Language Navigation (VLN)** aims to enable autonomous drones to navigate in real-world environments via **natural language instructions** and **visual observations**. It is a new frontier in Embodied AI that combines:
 - UAV-based perception
 - Natural language understanding
 - Vision-language grounding and planning.
 
-This repository collects academic efforts in this interdisciplinary field, from papers, datasets, platforms, and related resources.
+This repository collects academic efforts in this interdisciplinary field, including papers, datasets, platforms, and related resources.
 
 ---
 
