@@ -1,12 +1,10 @@
 
 # Awesome Aerial-VLN
 
-> A curated list of **Aerial Vision-and-Language Navigation (VLN)** papers, datasets, platforms, and related resources. Aerial VLN aims to enable autonomous drones to **navigate in real-world environments** via **natural language instructions**.  
-
----
-
-
 ## Introduction
+
+A curated list of **Aerial Vision-and-Language Navigation (VLN)** papers, datasets, platforms, and related resources. Aerial VLN aims to enable autonomous drones to **navigate in real-world environments** via **natural language instructions**.  
+
 
 **Aerial-VLN** is a new frontier in Embodied AI that combines:
 - UAV-based perception
