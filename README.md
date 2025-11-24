@@ -1,9 +1,8 @@
 
-# Awesome Aerial-VLN [🌐📍✈️]
+# Awesome Aerial-VLN
 
-> A curated list of **Aerial Vision-and-Language Navigation (VLN)** papers, datasets, platforms, and related resources.  
-> Aerial VLN aims to enable autonomous drones to **navigate in real-world environments** via **natural language instructions**.  
-> Last updated: 2025/10/24
+> A curated list of **Aerial Vision-and-Language Navigation (VLN)** papers, datasets, platforms, and related resources. Aerial VLN aims to enable autonomous drones to **navigate in real-world environments** via **natural language instructions**.  
+
 ---
 
 
@@ -50,6 +49,18 @@ This repository collects academic efforts in this interdisciplinary field, from 
 To clearly present the research timeline, each publication is sorted by the earliest relevant date—journal submission, conference deadline, or first arXiv submission (if available).
 <details>
 <summary>2025</summary>
+
+- **OpenVLN: Open-world Aerial Vision-Language Navigation**  
+  *Peican Lin, Gan Sun, Chenxi Liu, Fazeng Li, Weihong Ren, Yang Cong*  
+  [[Arxiv-20251109](https://arxiv.org/abs/2511.06182)]
+
+- **SoraNav: Adaptive UAV Task-Centric Navigation via Zeroshot VLM Reasoning**  
+  *Hongyu Song, Rishabh Dev Yadav, Cheng Guo, Wei Pan*  
+  [[Arxiv-20251029](https://arxiv.org/abs/2510.25191)]
+
+- **AeroVerse-Review: Comprehensive survey on aerial embodied vision-and-language navigation**  
+  *Fanglong Yao, Youzhi Liu, Wenyi Zhang, et al*  
+ **【Survey】** *The Innovation Informatics, 2025. Submission 20250921*   [[Paper](https://www.the-innovation.org/article/doi/10.59717/j.xinn-inform.2025.100015)]
 
 - **SA-GCS: Semantic-Aware Gaussian Curriculum Scheduling for UAV Vision-Language Navigation**  
   *Hengxing Cai, Jinhan Dong, Yijie Rao, Jingcheng Deng, Jingjun Tan, Qien Chen, Haidong Wang, Zhen Wang, Shiyu Huang, Agachai Sumalee, Renxin Zhong*  
@@ -110,6 +121,14 @@ To clearly present the research timeline, each publication is sorted by the earl
 - **CityNavAgent: Aerial Vision-and-Language Navigation with Hierarchical Semantic Planning and Global Memory**  
   *Weichen Zhang, Chen Gao, Shiquan Yu, Ruiying Peng, Baining Zhao, Qian Zhang, Jinqiang Cui, Xinlei Chen, Yong Li*  
   *ACL, 2025. Submission 20250215* [[Arxiv-20250508](https://arxiv.org/abs/2505.05622)] [[GitHub](https://github.com/VinceOuti/CityNavAgent)]
+
+- **Structured Instruction Parsing and Scene Alignment For UAV Vision-Language Navigation**  
+  *Liangyu Zhou, Rui Xue, Xiaoyan Luo*  
+  *ICIP, 2025. Submission 20250205* [[Paper](https://ieeexplore.ieee.org/abstract/document/11084696)]
+
+- **UAVs Meet LLMs: Overviews and Perspectives Toward Agentic Low-Altitude Mobility**  
+  *Yonglin Tian, Fei Lin, Yiduo Li, et al*  
+ **【Survey】** *Information Fusion, 2025. Submission 20250104*   [[Paper](https://www.sciencedirect.com/science/article/pii/S1566253525002313)] [[Arxiv-20250104](https://arxiv.org/pdf/2501.02341?)]
 
 </details>
 
