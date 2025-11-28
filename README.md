@@ -69,13 +69,9 @@ To clearly present the research timeline, each publication is sorted by the earl
   *Yuhang Zhang, Haosheng Yu, Jiaping Xiao, Mir Feroskhan*  
   [[Arxiv-20250612](https://arxiv.org/abs/2506.10756)]
 
-- **VLM-RRT: Vision Language Model Guided RRT Search for Autonomous UAV Navigation**  
-  *Jianlin Ye, Savvas Papaioannou, Panayiotis Kolios*  
-  [[Arxiv-20250529](https://arxiv.org/abs/2505.12835)] [[Paper](https://ieeexplore.ieee.org/abstract/document/11007837)]
-
 - **FlightGPT: Towards Generalizable and Interpretable UAV Vision-and-Language Navigation with Vision-Language Models**  
   *Hengxing Cai, Jinhan Dong, Jingjun Tan, Jingcheng Deng, Sihang Li, Zhifeng Gao, Haidong Wang, Zicheng Su, Agachai Sumalee, Renxin Zhong*  
-  [[Arxiv-20250519](https://arxiv.org/abs/2505.12835)] [[GitHub](https://github.com/Pendulumclock/FlightGPT)]
+  *EMNLP, 2025. Submission 20250519* [[Arxiv-20250519](https://arxiv.org/abs/2505.12835)] [[GitHub](https://github.com/Pendulumclock/FlightGPT)]
 
 - **LogisticsVLN: Vision-Language Navigation For Low-Altitude Terminal Delivery Based on Agentic UAVs**  
   *Xinyuan Zhang, Yonglin Tian, Fei Lin, Yue Liu, Jing Ma, Kornélia Sára Szatmáry, Fei-Yue Wang*  
@@ -116,6 +112,10 @@ To clearly present the research timeline, each publication is sorted by the earl
 - **CityNavAgent: Aerial Vision-and-Language Navigation with Hierarchical Semantic Planning and Global Memory**  
   *Weichen Zhang, Chen Gao, Shiquan Yu, Ruiying Peng, Baining Zhao, Qian Zhang, Jinqiang Cui, Xinlei Chen, Yong Li*  
   *ACL, 2025. Submission 20250215* [[Arxiv-20250508](https://arxiv.org/abs/2505.05622)] [[GitHub](https://github.com/VinceOuti/CityNavAgent)]
+
+- **VLM-RRT: Vision Language Model Guided RRT Search for Autonomous UAV Navigation**  
+  *Jianlin Ye, Savvas Papaioannou, Panayiotis Kolios*  
+  *ICUAS, 2025. Submission 20250209* [[Arxiv-20250529](https://arxiv.org/abs/2505.12835)] [[Paper](https://ieeexplore.ieee.org/abstract/document/11007837)]
 
 - **Structured Instruction Parsing and Scene Alignment For UAV Vision-Language Navigation**  
   *Liangyu Zhou, Rui Xue, Xiaoyan Luo*  
