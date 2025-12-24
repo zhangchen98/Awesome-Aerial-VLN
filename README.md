@@ -42,9 +42,25 @@ This repository collects academic efforts in this interdisciplinary field, inclu
 
 ## 📅 Papers by Year
 To clearly present the research timeline, each publication is sorted by the earliest relevant date—journal submission, conference deadline, or first arXiv submission (if available).
-<details>
+<details open>
 <summary>2025</summary>
 
+- **IndoorUAV: Benchmarking Vision-Language UAV Navigation in Continuous Indoor Environments**  
+  *Xu Liu, Yu Liu, Hanshuo Qiu, Yang Qirong, Zhouhui Lian*  
+  [[Arxiv-20251222](https://arxiv.org/pdf/2512.19024)]  
+
+- **VLA-AN: An Efficient and Onboard Vision-Language-Action Framework for Aerial Navigation in Complex Environments**  
+  *Yuze Wu, Mo Zhu, Xingxing Li, Yuheng Du, Yuxin Fan, Wenjun Li, Zhichao Han, Xin Zhou, Fei Gao*  
+  [[Arxiv-20251217](https://arxiv.org/abs/2512.15258)]  
+
+- **History-Enhanced Two-Stage Transformer for Aerial Vision-and-Language Navigation**   
+  *Xichen Ding, Jianzhe Gao, Cong Pan, Wenguan Wang, Jie Qin*  
+  [[Arxiv-20251216](https://arxiv.org/abs/2512.14222)]  
+
+- **Aerial Vision-Language Navigation with a Unified Framework for Spatial, Temporal and Embodied Reasoning**   
+  *Huilin Xu, Zhuoyang Liu, Yixiang Luomei, Feng Xu*  
+  [[Arxiv-20251209](https://arxiv.org/abs/2512.08639)]  
+  
 - **OpenVLN: Open-world Aerial Vision-Language Navigation**  
   *Peican Lin, Gan Sun, Chenxi Liu, Fazeng Li, Weihong Ren, Yang Cong*  
   [[Arxiv-20251109](https://arxiv.org/abs/2511.06182)]
@@ -127,7 +143,7 @@ To clearly present the research timeline, each publication is sorted by the earl
 
 </details>
 
-<details>
+<details open>
 <summary>2024</summary>
 
 - **NavAgent: Multi-scale Urban Street View Fusion For UAV Embodied Vision-and-Language Navigation**  
@@ -147,7 +163,7 @@ To clearly present the research timeline, each publication is sorted by the earl
    *ICCV, 2025 Submission 20250307* [[Arxiv-20240620](https://arxiv.org/abs/2406.14240)] [[GitHub](https://github.com/water-cookie/citynav)] [[Website](https://water-cookie.github.io/city-nav-proj/)] 
 </details>
 
-<details>
+<details open>
 <summary>2023</summary>
 
 - **AerialVLN: Vision-and-language navigation for UAVs**  
