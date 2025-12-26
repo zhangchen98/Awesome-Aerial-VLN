@@ -13,7 +13,7 @@ This repository collects academic efforts in this interdisciplinary field, inclu
 ---
 
 
-## 🕹️ Simulators & Platforms
+## Simulators & Platforms
 
 | Name | Source| Engine | Description | Date Type | Size | Link |
 |------|-------|--------|-------------|-----------|------|------|
@@ -26,7 +26,7 @@ This repository collects academic efforts in this interdisciplinary field, inclu
 
 ---
 
-## 📁 Datasets
+## Datasets
 
 | Name | Year | Environment | Trajectories | Traj. Len.| Action Num | Instructions | Intr. Len. | Vocab | DoF | Link |
 |------|------|-----------|--------|-----------|------------|--------------|------------|-------|--------------|------|
@@ -40,7 +40,7 @@ This repository collects academic efforts in this interdisciplinary field, inclu
 ---
 
 
-## 📅 Papers by Year
+## Papers by Year
 To clearly present the research timeline, each publication is sorted by the earliest relevant date—journal submission, conference deadline, or first arXiv submission (if available).
 <details open>
 <summary>2025</summary>
@@ -175,7 +175,7 @@ To clearly present the research timeline, each publication is sorted by the earl
 
 ---
 
-## 🔗 Related Topics
+## Related Topics
 
 - [awesome-vln](https://github.com/daqingliu/awesome-vln)
 - [awesome-embodied-vla-va-vln](https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln)
@@ -191,4 +191,4 @@ This repository is licensed under the [MIT License](./LICENSE).
 
 ---
 
-⭐️ If you find this repository useful, please consider starring it to support the project!
+If you find this repository useful, please consider starring it to support the project!
