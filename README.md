@@ -45,6 +45,14 @@ To clearly present the research timeline, each publication is sorted by the earl
 <details open>
 <summary>2025</summary>
 
+- **AirNav: A Large-Scale Real-World UAV Vision-and-Language Navigation Dataset with Natural and Diverse Instructions**  
+  *Hengxing Cai, Yijie Rao, Ligang Huang, Zanyang Zhong, Jinhan Dong, Jingjun Tan, Wenhao Lu, Renxin Zhong*  
+  [[Arxiv-20260107](https://arxiv.org/abs/2601.03707)]
+  
+- **LongFly: Long-Horizon UAV Vision-and-Language Navigation with Spatiotemporal Context Integration**  
+  *Wen Jiang, Li Wang, Kangyao Huang, Wei Fan, Jinyuan Liu, Shaoyu Liu, Hongwei Duan, Bin Xu, Xiangyang Ji*  
+  [[Arxiv-20251226](https://arxiv.org/abs/2512.22010)]  
+
 - **IndoorUAV: Benchmarking Vision-Language UAV Navigation in Continuous Indoor Environments**  
   *Xu Liu, Yu Liu, Hanshuo Qiu, Yang Qirong, Zhouhui Lian*  
   [[Arxiv-20251222](https://arxiv.org/pdf/2512.19024)]  
