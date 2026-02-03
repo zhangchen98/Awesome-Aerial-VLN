@@ -43,12 +43,21 @@ This repository collects academic efforts in this interdisciplinary field, inclu
 ## Papers by Year
 To clearly present the research timeline, each publication is sorted by the earliest relevant date—journal submission, conference deadline, or first arXiv submission (if available).
 <details open>
-<summary>2025</summary>
+<summary>2026</summary>
 
+- **APEX: A Decoupled Memory-based Explorer for Asynchronous Aerial Object Goal Navigation**  
+  *Daoxuan Zhang, Ping Chen, Xiaobo Xia, Xiu Su, Ruichen Zhen, Jianqiang Xiao, Shuo Yang*  
+  [[Arxiv-20260131](https://arxiv.org/abs/2602.00551)] 
+  
 - **AirNav: A Large-Scale Real-World UAV Vision-and-Language Navigation Dataset with Natural and Diverse Instructions**  
   *Hengxing Cai, Yijie Rao, Ligang Huang, Zanyang Zhong, Jinhan Dong, Jingjun Tan, Wenhao Lu, Renxin Zhong*  
   [[Arxiv-20260107](https://arxiv.org/abs/2601.03707)]
-  
+
+</details>
+
+<details open>
+<summary>2025</summary>
+
 - **LongFly: Long-Horizon UAV Vision-and-Language Navigation with Spatiotemporal Context Integration**  
   *Wen Jiang, Li Wang, Kangyao Huang, Wei Fan, Jinyuan Liu, Shaoyu Liu, Hongwei Duan, Bin Xu, Xiangyang Ji*  
   [[Arxiv-20251226](https://arxiv.org/abs/2512.22010)]  
