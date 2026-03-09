@@ -41,13 +41,21 @@ This repository collects academic efforts in this interdisciplinary field, inclu
 
 
 ## Papers by Year
-To clearly present the research timeline, each publication is sorted by the earliest relevant date—journal submission, conference deadline, or first arXiv submission (if available).
+**To clearly present the research timeline, each publication is sorted by the earliest relevant date—journal submission, conference deadline, or first arXiv submission (if available).**
 <details open>
 <summary>2026</summary>
 
+- **VLN-Pilot: Large Vision-Language Model as an Autonomous Indoor Drone Operator**  
+  *Bessie Dominguez-Dager, Sergio Suescun-Ferrandiz, Felix Escalona, Francisco Gomez-Donoso, Miguel Cazorla*  
+  [[Arxiv-20260205](https://arxiv.org/abs/2602.05552)]
+  
 - **APEX: A Decoupled Memory-based Explorer for Asynchronous Aerial Object Goal Navigation**  
   *Daoxuan Zhang, Ping Chen, Xiaobo Xia, Xiu Su, Ruichen Zhen, Jianqiang Xiao, Shuo Yang*  
-  [[Arxiv-20260131](https://arxiv.org/abs/2602.00551)] 
+  [[Arxiv-20260131](https://arxiv.org/abs/2602.00551)]
+
+- **Mitigating Error Accumulation in Continuous Navigation via Memory-Augmented Kalman Filtering**  
+  *Yin Tang, Jiawei Ma, Jinrui Zhang, Alex Jinpeng Wang, Deyu Zhang*  
+  [[Arxiv-20260130](https://arxiv.org/abs/2602.11183)]
   
 - **AirNav: A Large-Scale Real-World UAV Vision-and-Language Navigation Dataset with Natural and Diverse Instructions**  
   *Hengxing Cai, Yijie Rao, Ligang Huang, Zanyang Zhong, Jinhan Dong, Jingjun Tan, Wenhao Lu, Renxin Zhong*  
@@ -86,6 +94,10 @@ To clearly present the research timeline, each publication is sorted by the earl
   *Hongyu Song, Rishabh Dev Yadav, Cheng Guo, Wei Pan*  
   [[Arxiv-20251029](https://arxiv.org/abs/2510.25191)]
 
+- **AutoFly: Vision-Language-Action Model for UAV Autonomous Navigation in the Wild**  
+  *Xiaolou Sun, Wufei Si, Wenhui Ni, Yuntian Li, Dongming Wu, Fei Xie, Runwei Guan, He-Yang Xu, Henghui Ding, Yuan Wu, Yutao Yue, Yongming Huang, Hui Xiong*  
+  *ICLR, 2026. Submission 20250924* [[Arxiv-20260210](https://arxiv.org/abs/2602.09657)]
+  
 - **AeroVerse-Review: Comprehensive survey on aerial embodied vision-and-language navigation**  
   *Fanglong Yao, Youzhi Liu, Wenyi Zhang, et al*  
  **【Survey】** *The Innovation Informatics, 2025. Submission 20250921*   [[Paper](https://www.the-innovation.org/article/doi/10.59717/j.xinn-inform.2025.100015)]
