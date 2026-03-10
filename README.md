@@ -148,7 +148,7 @@ This repository collects academic efforts in this interdisciplinary field, inclu
 
 - **SkyVLN: Vision-and-Language Navigation and NMPC Control for UAVs in Urban Environments**  
   *Tianshun Li, Tianyi Huai, Zhen Li, Yichun Gao, Haoang Li, Xinhu Zheng*  
-  *IROS, 2025. Submission 20250302* [[Arxiv-20250709](https://arxiv.org/abs/2505.23267)]
+  *IROS, 2025. Submission 20250302* [[Arxiv-20250709](https://arxiv.org/abs/2507.06564)]
 
 - **OpenFly: A Comprehensive Platform for Aerial Vision-Language Navigation**  
   *Yunpeng Gao, Chenhui Li, Zhongrui You, Junli Liu, Zhen Li, Pengan Chen, Qizhi Chen, Zhonghan Tang, Liansheng Wang, Penghui Yang, Yiwen Tang, Yuhang Tang, Shuai Liang, Songyi Zhu, Ziqin Xiong, Yifei Su, Xinyi Ye, Jianan Li, Yan Ding, Dong Wang, Zhigang Wang, Bin Zhao, Xuelong Li*  
